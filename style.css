@@ -15,6 +15,28 @@ header{
 .date{
     color: #ddd;
 }
+nav{
+    position: sticky;
+    top: 1em;
+    z-index: 2;
+    border-top: 1px solid #eee ;
+    border-bottom: 1px solid #eee ;
+    background-color: white;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    padding: .5em;
+    font-size: small;
+    text-decoration: none;
+    color: #777;
+}
+nav a{
+    color: #777;
+}
 body{
     font-family: "Source Sans Pro";
     margin: auto;
@@ -25,21 +47,11 @@ h1{
         text-align: center;
         color: black;
 }
+#img1{
+    position: relative;
+    width: 700px;
+}
 
-nav{
-    list-style: none;
-    margin-left: auto;
-    border-top: 1px solid #eee ;
-    border-bottom: 1px solid #eee ;
-}
-li{
-    list-style: none;
-    display: inline-block;
-    padding: .5em;
-    color: #777;
-    text-decoration: none;
-    font-size: small;
-}
 
 h5{
      color: #dd3232;
@@ -55,6 +67,9 @@ section{
     display: inline-block;
     max-width: 300px;
     padding: 1em;
-    border-top: 2px dashed gray;
+    border-top: 2px dashed rgb(216, 213, 213);
 }
-
+ul{
+    text-decoration: none;
+    color: #777;
+}
